@@ -1,0 +1,2 @@
+position:X_Y_Z|diffuse:R_G_B|specular:R_G_B|attenuation:Linear_Quadratic|direction:X_Y_Z|parameter1:lightType_innerAngle_outerAngle|parameter2:switch
+0 0 0 1 1 1 1 1 1 0 0 -0.2 -1.73 -1 2 0 0 1

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DebugRenderer">
+      <UniqueIdentifier>{eb5d7bf8-4542-4492-a92d-a52475324bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LowPassFilter">
+      <UniqueIdentifier>{5f67d61a-6bc1-4c6a-afa5-23a1846a511d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{3327bbc9-40c1-42a1-9bbc-b657194bbd79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{1d9ed30c-2851-4deb-8247-7ff90fee86ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f67adde1-2041-42af-aec8-f169d398d2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{a7cad013-5e79-4160-8c77-7170461ebd6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{c25c58fb-5d23-4f3a-9b86-aa74dcf011cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GFLW_callbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRenderer\cDebugRenderer.cpp">
+      <Filter>DebugRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRenderer\cDebugRenderer_BuiltInShapes.cpp">
+      <Filter>DebugRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRenderer\CErrorLog.cpp">
+      <Filter>DebugRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRenderer\cGLRenderStateHelper.cpp">
+      <Filter>DebugRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRenderer\COpenGLError.cpp">
+      <Filter>DebugRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cLowPassFilter.cpp">
+      <Filter>LowPassFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="C24BitBMPpixel.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="cBasicTextureManager.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureFromBMP.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleEmitter.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObject.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="cFBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globalUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="cModelLoader_assimp.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="cModelLoader.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="c3rdPersonCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GFLW_callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawObjectUtilLoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderer\cDebugRenderer.h">
+      <Filter>DebugRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderer\CErrorLog.h">
+      <Filter>DebugRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderer\cGLRenderStateHelper.h">
+      <Filter>DebugRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderer\COpenGLError.h">
+      <Filter>DebugRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderer\iDebugRenderer.h">
+      <Filter>DebugRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cLowPassFilter.h">
+      <Filter>LowPassFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="C24BitBMPpixel.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="cBasicTextureManager.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureFromBMP.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleEmitter.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObject.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="cFBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cModelLoader.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="c3rdPersonCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\fragmentShader01.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assets\shaders\vertexShader01.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

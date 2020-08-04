@@ -1,0 +1,27 @@
+meshName|friendlyName|positionX_Y_Z|rotationX_Y_Z(degrees)|scaleX_Y_Z|diffuseR_G_B_Transparency|physicsShapeType|texture_0|texture_1|blendMode
+quadMesh playfield 0 0 0 -90 0 0 15 25 1 0.2 0.3 0.4 1 PLANE grid_ground.bmp Half_grey.bmp NO_TEXTURE
+quadMesh cap 0 3 0 90 0 0 15 25 1 0.2 0.3 0.4 1 PLANE grid_ground.bmp Half_grey.bmp NO_TEXTURE
+
+sphereMesh ball 12.75 2 13 0 0 0 1 1 1 1 1 1 1 SPHERE checker.bmp Half_grey.bmp DIFFUSE_COLOUR
+
+cubeMesh wallUp 0 1.2 -25 0 0 0 15 1.2 0.5 0.5 0.5 0.5 1 BOX checker.bmp Half_grey.bmp NO_TEXTURE
+cubeMesh wallDown 0 1.2 25 0 0 0 15 1.2 0.5 0.5 0.5 0.5 1 BOX checker.bmp Half_grey.bmp NO_TEXTURE
+cubeMesh wallLeft -14.5 1.2 0 0 0 0 0.5 1.2 25 0.5 0.5 0.5 1 BOX checker.bmp Half_grey.bmp NO_TEXTURE
+cubeMesh wallRight 14.5 1.2 0 0 0 0 0.5 1.2 25 0.5 0.5 0.5 1 BOX checker.bmp Half_grey.bmp NO_TEXTURE
+cubeMesh wallMid 11 1.2 2.5 0 0 0 0.5 1.2 22 0.5 0.5 0.5 1 BOX checker.bmp Half_grey.bmp NO_TEXTURE
+cubeMesh wallflipperLeft -11.2 1.2 17 0 -30 0 4 1.2 0.5 0.5 0.5 0.5 1 BOX checker.bmp Half_grey.bmp NO_TEXTURE
+cubeMesh wallflipperRight 7.6 1.2 17 0 30 0 4 1.2 0.5 0.5 0.5 0.5 1 BOX checker.bmp Half_grey.bmp NO_TEXTURE
+cubeMesh wallCorner 12.8 1.2 -23.2 0 -45 0 2.5 1.2 0.5 0.5 0.5 0.5 1 BOX checker.bmp Half_grey.bmp NO_TEXTURE
+
+cylinderMesh bumper1 -8 1.5 -18 0 0 0 2 1.5 2 0.3 0.6 0.3 1 CYLINDER checker.bmp Half_grey.bmp NO_TEXTURE
+cylinderMesh bumper2 4 1.5 -10 0 0 0 2 1.5 2 0.3 0.6 0.3 1 CYLINDER checker.bmp Half_grey.bmp NO_TEXTURE
+
+capsuleMesh spinner1 -5 1 1 0 0 0 1 1 1 0.3 0.6 0.3 1 SPINNER checker.bmp Half_grey.bmp NO_TEXTURE
+
+cubeMesh deathTrigger -1.5 0 25 0 0 0 5 1 1 0.5 0.2 0.2 1 TRIGGER checker.bmp Half_grey.bmp NO_TEXTURE
+cubeMesh spinTrigger -1 0 0 0 0 0 1 1 1 0.5 0.2 0.2 1 TRIGGER checker.bmp Half_grey.bmp NO_TEXTURE
+
+cubeMesh flipperRight 1.95 1.2 20.2 0 30 0 2.5 1.2 0.5 0.6 0.6 0 1 FLIPPER checker.bmp Half_grey.bmp NO_TEXTURE
+cubeMesh flipperLeft -5.55 1.2 20.2 0 30 0 2.5 1.2 0.5 0.6 0.6 0 1 FLIPPER checker.bmp Half_grey.bmp NO_TEXTURE
+
+cubeMesh plunger 12.7 1.2 19.5 0 0 0 1 1 1.5 0.6 0.6 0 1 PLUNGER checker.bmp Half_grey.bmp NO_TEXTURE

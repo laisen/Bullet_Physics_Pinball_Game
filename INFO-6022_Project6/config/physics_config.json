@@ -1,0 +1,32 @@
+{
+  "playfield": { "Constant" : 0.0, "Normal" : [0, 1, 0] },
+  "cap": { "Constant" : -3.0, "Normal" : [0, -1, 0] },
+  "frontPlane": { "Constant" : -50.0, "Normal" : [0, 0, -1] },
+  "backPlane": { "Constant" : -50.0, "Normal" : [0, 0, 1] },
+  "leftPlane": { "Constant" : -50.0, "Normal" : [1, 0, 0] },
+  "rightPlane": { "Constant" : -50.0, "Normal" : [-1, 0, 0] },
+  
+  "ball": { "Mass" : 3.0, "Radius" : 1.0, "Position" : [12.75, 2, 13] },
+
+  "wallUp": { "Mass" : 0.0, "Position" : [0, 1.2, -25], "HalfExtents" : [15, 1.2, 0.5], "Rotation" : [0, 0, 0]},
+  "wallDown": { "Mass" : 0.0, "Position" : [0, 1.2, 25], "HalfExtents" : [15, 1.2, 0.5], "Rotation" : [0, 0, 0]},
+  "wallLeft": { "Mass" : 0.0, "Position" : [-14.5, 1.2, 0], "HalfExtents" : [0.5, 1.2, 25], "Rotation" : [0, 0, 0]},
+  "wallRight": { "Mass" : 0.0, "Position" : [14.5, 1.2, 0], "HalfExtents" : [0.5, 1.2, 25], "Rotation" : [0, 0, 0]},
+  "wallMid": { "Mass" : 0.0, "Position" : [11, 1.2, 2.5], "HalfExtents" : [0.5, 1.2, 22], "Rotation" : [0, 0, 0]},
+  "wallflipperLeft": { "Mass" : 0.0, "Position" : [-11.2, 1.2, 17], "HalfExtents" : [4, 1.2, 0.5], "Rotation" : [0, -30, 0]},
+  "wallflipperRight": { "Mass" : 0.0, "Position" : [7.6, 1.2, 17], "HalfExtents" : [4, 1.2, 0.5], "Rotation" : [0, 30, 0]},
+  "wallCorner": { "Mass" : 0.0, "Position" : [12.8, 1.2, -23.2], "HalfExtents" : [2.5, 1.2, 0.5], "Rotation" : [0, -45, 0]},
+
+  "bumper1": { "Mass" : 0.0, "Radius" : 2.0, "HalfHeight" : 1.5, "Position" : [-8, 1.5, -18], "Rotation" : [0, 0, 0]},
+  "bumper2": { "Mass" : 0.0, "Radius" : 2.0, "HalfHeight" : 1.5, "Position" : [4, 1.5, -10], "Rotation" : [0, 0, 0]},
+
+  "spinner1": { "Mass" : 0.5, "Radius" : 1.0, "BetweenHeight" : 6.0, "Position" : [-5, 1, -1], "Rotation" : [0, 0, 0]},
+
+  "deathTrigger": { "Position" : [-1.5, 0, 25], "HalfExtents" : [5, 1, 1]},
+  "spinTrigger": { "Position" : [-1.0, 0, 0], "HalfExtents" : [1, 1, 1]},
+
+  "flipperRight": { "Mass" : 5.0, "Position" : [1.95, 1.2, 20.2], "HalfExtents" : [2.5, 1.2, 0.5], "Rotation" : [0, 30, 0]},
+  "flipperLeft": { "Mass" : 5.0, "Position" : [-5.55, 1.2, 20.2], "HalfExtents" : [2.5, 1.2, 0.5], "Rotation" : [0, -30, 0]},
+
+  "plunger": { "Mass" : 5.0, "Position" : [12.7, 1.2, 19.5], "HalfExtents" : [1, 1, 1.5], "Rotation" : [0, 0, 0]}
+}

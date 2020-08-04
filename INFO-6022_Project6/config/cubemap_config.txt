@@ -1,0 +1,7 @@
+assets/textures/cubemaps/
+nebulaRT.bmp
+nebulaLF.bmp
+nebulaTP.bmp
+nebulaDN.bmp
+nebulaFT.bmp
+nebulaBK.bmp
